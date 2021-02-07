@@ -12,3 +12,20 @@ Inline Element
 
 Closing
 Self Closing
+
+//////////css////
+inline css
+styleTag
+StyleSheet
+
+>>>>>>
+Target
+> tagname
+> id      > is to target unique element
+> class   > to target multiple element
+
+https://htmlcolorcodes.com/color-picker/
+
+solid
+dotted
+double

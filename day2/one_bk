@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>HTML With CSS</title>
+    </head>
+    <body>
+        <header>
+            <h1 style="text-align:center">React App</h1>
+            <div style="text-align: right;">
+                <a style="text-decoration:none;color:navy;font-size:30px" href="https://www.facebook.com">
+                    <img style="width:50px;height:50px" src="facebook.png"/>
+                </a>
+                <a style="text-decoration: none;color:purple;font-size:30px" href="https://www.youtube.com">
+                    <img style="width:50px;height:50px" src="youtube.png"/>
+                </a>
+                <a style="text-decoration: none;color:greenyellow;font-size:30px" href="https://www.snapchat.com">
+                    <img style="width:40px;height:40px" src="snapchat.png"/>
+                </a>
+            </div>
+        </header>
+        <div>
+
+        </div>
+        <hr/>
+        <footer>
+            <h2 style="text-align: center;">
+                &copy; Developer Funnel
+            </h2>
+        </footer>
+    </body>
+</html>
