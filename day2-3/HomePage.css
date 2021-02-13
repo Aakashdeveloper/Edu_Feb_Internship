@@ -1,0 +1,120 @@
+body{
+    margin: auto;
+}
+
+#social{
+    text-align: right;
+}
+
+#social > a{
+    text-decoration: none;
+}
+img{
+    height:50px;
+    width: 50px;
+}
+.ImageContainer{
+    background: url('https://i.ibb.co/85b18PM/food-wallpaper.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:2px solid gray
+}
+
+#logo{
+    font-size:90px;
+    color:red;
+    text-align: center;
+    background-color: white;
+    height:150px;
+    width:150px;
+    border-radius: 50%;
+    margin:auto;
+    margin-top:80px;
+    margin-bottom:40px;
+}
+
+#heading{
+    text-align: center;
+    color:white;
+    font-size:35px;
+}
+
+b{
+    margin-top:50px
+}
+
+.dropdown{
+    text-align: center;
+    margin-top:40px;
+    margin-bottom:40px;
+}
+
+select{
+    height:50px;
+    width:250px;
+    font-size:20px;
+    border-radius:20px;
+    border: none
+}
+.QuickSearchContainer{
+    margin-left:115px;
+    margin-top:50px;
+}
+
+#QuickHeading{
+    color:#192f60;
+    font-size:30px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: block;
+    text-align:left
+}
+
+#QuickSubHeading{
+    color:gray;
+    font-size:20px;
+    font-weight:normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height:.01;
+    margin-top:15px;
+    position: absolute;
+    text-align:left
+}
+.tileContainer{
+    height:180px;
+    width:28%;
+    margin-top:50px;
+    margin-bottom:20px;
+    box-shadow: 0px 3px 15px black;
+    display: inline-block;
+    margin-right:5%;
+    transition: transform 1s;
+}
+
+.tileComponent1{
+    width:46%;
+    float:left;
+}
+.tileComponent2{
+    width:46%;
+    float: left;
+    margin-left:20px;
+    margin-top:20px;
+}
+
+.componentHeading{
+    text-align:left;
+    color:#192f60;
+    font-size:25px;
+    font-weight: bold;
+}
+
+.componentSubHeading{
+    color:gray;
+    font-size:18px;
+    line-height: 1;
+}
+
+.tileContainer:hover{
+    transform: scale(1.2);
+}
