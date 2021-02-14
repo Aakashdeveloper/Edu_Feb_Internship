@@ -118,3 +118,39 @@ select{
 .tileContainer:hover{
     transform: scale(1.2);
 }
+
+@media screen and (min-width:400px){
+    body{
+        background-color: skyblue;
+    }
+    .tileContainer{
+        width:80%;
+    }
+}
+
+@media screen and (min-width:600px){
+    body{
+        background-color: lightseagreen;
+    }
+    .tileContainer{
+        width:60%;
+    }
+}
+
+@media screen and (min-width:800px){
+    body{
+        background-color: lightcoral;
+    }
+    .tileContainer{
+        width:40%;
+    }
+}
+
+@media screen and (min-width:1000px){
+    body{
+        background-color: lightgreen;
+    }
+    .tileContainer{
+        width:28%;
+    }
+}
