@@ -1,3 +1,6 @@
+h1,h2,h3{
+
+}
 body{
     margin: auto;
 }
@@ -17,7 +20,8 @@ img{
     background: url('https://i.ibb.co/85b18PM/food-wallpaper.png');
     background-repeat: no-repeat;
     background-size: cover;
-    border:2px solid gray
+    border:2px solid gray;
+    opacity:0.8
 }
 
 #logo{
