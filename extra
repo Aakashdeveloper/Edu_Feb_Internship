@@ -30,11 +30,39 @@ solid
 dotted
 double
 
-storage
-condition
-Date
-array
-let const
-function
-loop
-map/filter
+Stringliterals
+If else
+Ternary operator
+Cookies
+Session Storage
+Local Storage
+Regex
+let, var & const
+Loops
+
+functions
+Arrow functions
+default params
+IFFE
+map 
+filter
+DOM Manipulation
+Form validation
+Promises
+Async/Await
+Event Handling
+Exception Handling
+
+Dictionary/Object options
+Objects
+Object Descructing
+Template string
+Classes
+This keyword
+Hoisting
+Callback Functions
+SetTimeOut
+SetInterval
+Concise Functions
+Spread Operator
+Rest Operator

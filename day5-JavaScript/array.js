@@ -77,3 +77,23 @@ city.splice(2,1,'Nice','Boston')
 ["Mumbai"]
 city
 (7) ["Mumbai", "London", "Nice", "Boston", "Pune", "NewYork", "Dubai"]
+
+var arr = ["Mumbai", "London", "Nice",['Red','Yellow',['Kia','BMW','Audi'],'Green'], "Boston", "Pune", "NewYork", "Dubai"]
+undefined
+arr[3]
+(4) ["Red", "Yellow", Array(3), "Green"]
+arr[3][0]
+"Red"
+arr[3][2]
+(3) ["Kia", "BMW", "Audi"]
+arr[3][2][1]
+"BMW"
+
+var a = "hi"
+undefined
+var b = ['a','b']
+undefined
+Array.isArray(a)
+false
+Array.isArray(b)
+true
