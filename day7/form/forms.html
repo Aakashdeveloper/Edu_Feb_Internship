@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link href="forms.css" rel="stylesheet"/>
+        <script src="forms.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3>Forms</h3>
+                </div>
+                <div class="panel-body">
+                    <form method="GET" action="#">
+                        <div class="form-group">
+                            <label>FirstName</label>
+                            <input class="form-control" id="fname" onblur="validateFname()"
+                            name="fname"/>
+                            <p id="fout"></p>
+                        </div>
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input class="form-control" id="email" name="email"  oninput="validateEmail()"/>
+                            <p id="eout"></p>
+                        </div>
+                        <div class="form-group">
+                            <label>Password</label>
+                            <input class="form-control" id="password"
+                            name="password" oninput="validatePassword()"/>
+                            <p id="pout"></p>
+                            <div id="ppout"></div>
+                        </div>
+                        <div class="form-group">
+                            <label>Confirm Password</label>
+                            <input class="form-control" id="cpassword" 
+                            name="cpassword" oninput="validateCPassword()"/>
+                            <p id="cpout"></p>
+                        </div>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

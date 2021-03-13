@@ -47,10 +47,13 @@ IFFE
 map 
 filter
 DOM Manipulation
+calc
+
 Form validation
+Event Handling
+currency
 Promises
 Async/Await
-Event Handling
 Exception Handling
 
 Dictionary/Object options
