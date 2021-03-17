@@ -39,7 +39,6 @@ Local Storage
 Regex
 let, var & const
 Loops
-
 functions
 Arrow functions
 default params
@@ -48,24 +47,24 @@ map
 filter
 DOM Manipulation
 calc
-
 Form validation
 Event Handling
 currency
 Promises
 Async/Await
 Exception Handling
-
 Dictionary/Object options
 Objects
 Object Descructing
-Template string
 Classes
 This keyword
 Hoisting
-Callback Functions
 SetTimeOut
 SetInterval
+geo
+
 Concise Functions
 Spread Operator
 Rest Operator
+dynamicProgressbar
+
