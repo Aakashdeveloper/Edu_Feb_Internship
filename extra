@@ -68,3 +68,33 @@ Spread Operator
 Rest Operator
 dynamicProgressbar
 
+
+
+async single thread non block I/O
+
+JSON
+
+package.json
+> meta data 
+> name,version, description
+> author
+> packages
+> script (start,dev,test)
+
+//////////
+Step to generate package.json
+///////////
+
+**NodeJs must be install in system
+https://nodejs.org/en/
+
+> go inside the folder using terminal/cmd
+> type npm init
+> answer all questions
+> type "yes"
+
+//////////
+Step to install packages
+///////////
+> go inside the folder using terminal/cmd
+> npm i packagename
