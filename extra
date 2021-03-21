@@ -98,3 +98,189 @@ Step to install packages
 ///////////
 > go inside the folder using terminal/cmd
 > npm i packagename
+
+
+C > Create (POST)
+R > Read   (GET)
+U > Update (PUT)
+D > Delete (DELETE)
+
+
+///////
+Global package
+///////
+
+> Need admin access to install
+> install in particular system
+> will not add in package.json
+> only packages that help to start/ build the apps
+
+///////////
+Step to install global package
+///////////
+#window
+> open cmd as admin
+> npm i -g nodemon
+
+#mac/linux
+> open terminal
+> sudo npm i -g nodemon
+
+
+//////
+Local
+> https://www.mongodb.com/try/download/community
+> install
+> in c drive make one folder by the name of data
+> inside data folder make folder db 
+> c/data/db
+
+//////Step to start mongodb server//////
+> open cmd 
+> go inside folder c/programm/mongodb/4.4/script/bin  (go to bin folder)
+> mongod (start mongodb server on port 27017)
+
+//////Step to start mongodb console//////
+> open cmd 
+> go inside folder c/programm/mongodb/4.4/script/bin  (go to bin folder)
+> mongo 
+
+
+Cloud
+> https://www.mongodb.com/cloud/atlas
+> start free
+> click on "create new cluster"
+> select m0 sandbox
+> click "create cluster"
+> on left side (select network access)
+> Add IP Address
+    > Access List Entry: 0.0.0.0/0
+    > Comment: anything
+> on left side (select database access)
+> Add new database user
+    > provide username and password
+        (don't use any special character like $@)
+    > Database User Privileges
+        > Atlas Admin
+
+Sql 
+rollno | Hindi | English | Computer
+ 1     |  90   |         |
+ 2     |       |   80    |
+ 3     | 90    |         | 90
+
+ noSql
+ var student = [
+     {
+         rollno:1,
+         hindi:90
+     },
+     {
+         rollno:2,
+         english:90
+     },
+     {
+         rollno:3,
+         hindi:90,
+         computer:90
+     }
+ ]
+
+mysql       noSql
+database    database
+table       collections
+row         document
+
+
+//////
+How to see all database
+///////
+> show dbs  
+
+//////
+How to see create database
+///////
+> use databasename
+
+
+//////
+How to see create collection
+///////
+db.collection.insert(data you data)
+
+db.first.insert({_id:1,name:'John'})
+db.first.insert({name:'Alvin',city:'Amsterdam'})
+db.first.insert({_id:3,name:'Lisa',city:'Paris'})
+db.first.insert({_id:4,name:'Bhumika',city:'London'})
+db.first.insert({name:'Nikita',city:'London'})
+db.first.insert({name:'Karan',city:'Delhi'})
+/////
+to see collection
+/////
+show collections
+
+/////
+to find data
+/////
+(select * from first)
+db.first.find()
+
+_id > object id (it is the unique value) (primary key)
+
+12byte 
+> 4 byte (timestamp)
+> 5 byte (random value)
+> 3 byte (counter)
+
+//////////
+Routes Required
+////////
+> List of city
+> List of Restaurant
+> Restaurant wrt to city
+> Quick Search
+> list of hotel wrt to quick Search
+> Cuisine Filter
+> Cost Filter
+> Sorting 
+> Restaurant details
+> Place Order
+> See all Bookings
+
+
+////find with condition/////
+db.first.find({city:'London'})
+db.first.find({_id:4})
+db.first.find({_id:4,city:'London'})
+
+db.restaurent.find().pretty()
+
+> select * from restaurent where city = "1"
+db.restaurent.find({city:"1"}).pretty()
+
+                    condition,projection
+db.restaurent.find({city:"1"},{city:1,cost:1,name:1}).pretty()
+
+
+db.restaurent.find({},{city:1,cost:1,name:1,_id:0}).pretty()
+
+> CRUD 
+> PostMan  (27march)
+> Api      (28march)
+
+> Thruday > Assignment Solution (25 march)
+> Tuseday> LoginLogout (Jwt)(30March)
+
+
+> Basic React (3 April)
+> App FirstPAge( 4 April)
+> Tuseday> LoginLogout (Git)(6 April)
+
+> second-thrid(10April)
+> fourth-fifth(11April)
+> Tuseday > (13 April)
+
+> ReactWithLogin(17April)
+> Deployment(18thApril)
+
+> 20April(doubts)
