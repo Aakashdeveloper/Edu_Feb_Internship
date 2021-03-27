@@ -235,17 +235,18 @@ _id > object id (it is the unique value) (primary key)
 //////////
 Routes Required
 ////////
-> List of city
-> List of Restaurant
-> Restaurant wrt to city
-> Quick Search
-> list of hotel wrt to quick Search
-> Cuisine Filter
-> Cost Filter
-> Sorting 
-> Restaurant details
-> Place Order
-> See all Bookings
+> List of city  > http://localhost:9800/location 
+> List of Restaurant > http://localhost:9800/restaurent
+> Restaurant wrt to city > http://localhost:9800/restaurent?city=1
+> Quick Search > http://localhost:9800/mealtype
+> list of hotel wrt to quick Search > > http://localhost:9800/restaurent?mealtype=1
+> Cuisine Filter > http://localhost:9800/restaurent?cuisine=1
+> Cost Filter > http://localhost:9800/restaurent?lcost=300&hcost=400
+> Sorting > http://localhost:9800/restaurent?sort=-1
+> Restaurant details > http://localhost:9800/rest/3
+> Place Order > http://localhost:9800/placeOrder
+> See all Bookings > http://localhost:9800/orders
+
 
 
 ////find with condition/////
@@ -284,3 +285,35 @@ db.restaurent.find({},{city:1,cost:1,name:1,_id:0}).pretty()
 > Deployment(18thApril)
 
 > 20April(doubts)
+
+
+npm i cors body-parser
+cors => cross origin resource sharing
+{
+	"restaurent_name":"Gulab",
+	"cost":300,
+	"name":"Nikita",
+	"restaurent_id":1,
+	"phone":86785478578,
+	"date":"2021-27-03"
+}
+
+
+///////
+delete data
+> db.users.remove({})
+> db.users.remove({_id:1})
+
+> db.users.update(
+    {_id:1},
+    {
+        $set:{
+           "restaurent_name":"Gulab",
+            "cost":300,
+            "name":"Nikita",
+            "restaurent_id":1,
+            "phone":86785478578,
+            "date":"2021-27-03" 
+        }
+    }
+ )
