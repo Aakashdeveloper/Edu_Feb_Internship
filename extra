@@ -235,17 +235,17 @@ _id > object id (it is the unique value) (primary key)
 //////////
 Routes Required
 ////////
-> List of city  > http://localhost:9800/location 
-> List of Restaurant > http://localhost:9800/restaurent
-> Restaurant wrt to city > http://localhost:9800/restaurent?city=1
-> Quick Search > http://localhost:9800/mealtype
-> list of hotel wrt to quick Search > > http://localhost:9800/restaurent?mealtype=1
-> Cuisine Filter > http://localhost:9800/restaurent?cuisine=1
-> Cost Filter > http://localhost:9800/restaurent?lcost=300&hcost=400
+> List of city  > https://restapilive.herokuapp.com/location
+> List of Restaurant > https://restapilive.herokuapp.com/restaurent
+> Restaurant wrt to city > https://restapilive.herokuapp.com/restaurent?city=1
+> Quick Search > https://restapilive.herokuapp.com/mealtype
+> list of hotel wrt to quick Search > >https://restapilive.herokuapp.com/restaurent?mealtype=1
+> Cuisine Filter > https://restapilive.herokuapp.com/restaurent?cuisine=1
+> Cost Filter > https://restapilive.herokuapp.com/restaurent?lcost=300&hcost=400
 > Sorting > http://localhost:9800/restaurent?sort=-1
-> Restaurant details > http://localhost:9800/rest/3
-> Place Order > http://localhost:9800/placeOrder
-> See all Bookings > http://localhost:9800/orders
+> Restaurant details > https://restapilive.herokuapp.com/rest/3
+> Place Order > https://restapilive.herokuapp.com/placeOrder
+> See all Bookings > https://restapilive.herokuapp.com/orders
 
 
 
@@ -317,3 +317,17 @@ delete data
         }
     }
  )
+
+ /////////////////////
+ React is a frontend library which help to build single page 
+ application using components
+
+ //////////////////////
+ #One Time#
+ > install global package
+ > open cmd as admin
+ > npm i -g create-react-app
+
+  #When We want new app#
+> go inside folder
+> create-react-app appname
