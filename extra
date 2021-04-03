@@ -351,3 +351,39 @@ delete data
 (Header) => {'x-access-token':'token value from login'}
 
 npm i jsonwebtoken bcryptjs body-parser cors express mongoose
+
+React is a frontend library which help to build single page application
+using components
+
+
+functions test(a,b){
+    return a,b
+}
+
+test(1,2)
+2
+
+
+class
+> Logical components
+> APi call/ other logics
+> can maintain the state
+
+functional
+> Dumb Component
+> Display
+> cannot maintain the state
+
+===================================
+> state
+  > local variable of components 
+  > any data interaction will happen through state
+  > we can update value of state
+
+> props
+ > help to transfer data from one component to other 
+ > we cannot update the value 
+
+
+
+virtual dom 
