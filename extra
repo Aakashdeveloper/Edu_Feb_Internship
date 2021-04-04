@@ -239,7 +239,7 @@ Routes Required
 > List of Restaurant > https://restapilive.herokuapp.com/restaurent
 > Restaurant wrt to city > https://restapilive.herokuapp.com/restaurent?city=1
 > Quick Search > https://restapilive.herokuapp.com/mealtype
-> list of hotel wrt to quick Search > >https://restapilive.herokuapp.com/restaurent?mealtype=1
+> list of hotel wrt to quick Search > https://restapilive.herokuapp.com/restaurent?mealtype=1
 > Cuisine Filter > https://restapilive.herokuapp.com/restaurent?cuisine=1
 > Cost Filter > https://restapilive.herokuapp.com/restaurent?lcost=300&hcost=400
 > Sorting > http://localhost:9800/restaurent?sort=-1
@@ -387,3 +387,9 @@ functional
 
 
 virtual dom 
+
+npm i react-router-dom
+
+history > redirect
+location > query params
+match  > params

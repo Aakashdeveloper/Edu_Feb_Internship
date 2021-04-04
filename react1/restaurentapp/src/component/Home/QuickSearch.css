@@ -1,0 +1,67 @@
+.QuickSearchContainer{
+    margin-left:115px;
+    margin-top:50px;
+}
+
+#QuickHeading{
+    color:#192f60;
+    font-size:30px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: block;
+    text-align:left
+}
+
+#QuickSubHeading{
+    color:gray;
+    font-size:20px;
+    font-weight:normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height:.01;
+    margin-top:15px;
+    position: absolute;
+    text-align:left
+}
+.tileContainer{
+    height:180px;
+    width:28%;
+    margin-top:50px;
+    margin-bottom:20px;
+    box-shadow: 0px 3px 15px black;
+    display: inline-block;
+    margin-right:5%;
+    transition: transform 1s;
+}
+
+.tileComponent1{
+    width:46%;
+    float:left;
+}
+.tileComponent2{
+    width:46%;
+    float: left;
+    margin-left:20px;
+    margin-top:20px;
+}
+
+.componentHeading{
+    text-align:left;
+    color:#192f60;
+    font-size:25px;
+    font-weight: bold;
+}
+
+.componentSubHeading{
+    color:gray;
+    font-size:18px;
+    line-height: 1;
+}
+
+.tileContainer:hover{
+    transform: scale(1.2);
+}
+
+img{
+    height:180px;
+    width:100%
+}

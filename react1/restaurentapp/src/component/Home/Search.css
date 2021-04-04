@@ -1,0 +1,58 @@
+body{
+    margin: auto;
+}
+
+.social{
+    text-align: right;
+}
+
+.social > a{
+    text-decoration: none;
+}
+.img{
+    height:50px;
+    width: 50px;
+}
+.ImageContainer{
+    background: url('https://i.ibb.co/85b18PM/food-wallpaper.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:2px solid gray;
+}
+
+#logo{
+    font-size:90px;
+    color:red;
+    text-align: center;
+    background-color: white;
+    height:150px;
+    width:150px;
+    border-radius: 50%;
+    margin:auto;
+    margin-top:80px;
+    margin-bottom:40px;
+}
+
+#heading{
+    text-align: center;
+    color:white;
+    font-size:35px;
+}
+
+b{
+    margin-top:50px
+}
+
+.dropdown{
+    text-align: center;
+    margin-top:40px;
+    margin-bottom:40px;
+}
+
+select{
+    height:50px;
+    width:250px;
+    font-size:20px;
+    border-radius:20px;
+    border: none
+}
