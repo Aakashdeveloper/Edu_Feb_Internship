@@ -393,3 +393,7 @@ npm i react-router-dom
 history > redirect
 location > query params
 match  > params
+
+https://docs.github.com/en/developers/apps/authorizing-oauth-apps
+
+http://www.passportjs.org/docs/google/
