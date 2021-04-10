@@ -36,6 +36,7 @@ app.get('/rest/:id',(req,res) => {
     })
 })
 
+
 app.get('/restaurent',(req,res) => {
     var condition = {};
     let sortcondition = {cost:1}
@@ -102,6 +103,13 @@ app.post('/placeOrder',(req,res) => {
     })
 })
 
+// clean orders
+app.delete('/deleteOrder',(req,res) => {
+    db.collection('orders').remove({},(err,result) => {
+        if(err) throw err;
+        res.send('data deleted')
+    })
+})
 
 // connect with database
 MongoClient.connect(mongourl,(err,connection)=>{

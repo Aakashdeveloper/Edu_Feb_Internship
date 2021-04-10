@@ -1,0 +1,19 @@
+#header{
+    width:100%;
+    height:50px;
+    background-color: red;
+    margin-left:1%;
+    margin-right:4%
+}
+
+span{
+    font-size:30px;
+}
+.logo{
+    font-size:30px;
+    color:white
+}
+
+.leftopt{
+    margin-right: 3%;
+}
