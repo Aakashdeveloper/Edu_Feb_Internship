@@ -27,11 +27,15 @@ const ListingDisplay= (props) => {
                             <div className="row">
                                 <div className="col-md-3">
                                     <div className="cuisine">Meal Type</div>
+                                    <div className="cuisine">Cuisine Type</div>
                                     <div className="cuisine">Cost For Two</div>
                                 </div>
                                 <div className="col-md-3">
                                     <div className="cuisine_data">
                                         {item.type[0].name}, {item.type[1].name}
+                                    </div>
+                                    <div className="cuisine_data">
+                                        {item.Cuisine[0].name}, {item.Cuisine[1].name}
                                     </div>
                                     <div className="cuisine_data">Rs. {item.cost}</div>
                                 </div>

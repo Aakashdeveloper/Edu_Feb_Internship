@@ -29,7 +29,7 @@ class PlaceOrder extends Component{
                 },
                 body:JSON.stringify(this.state)
             })
-            .then(console.log('Booking placed'))
+            .then(this.props.history.push('/viewbooking'))
     }
 
     render(){
