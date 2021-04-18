@@ -1,5 +1,4 @@
 import React,{Component} from 'react';
-import Header from '../../Header';
 
 const BookingUrl = "https://restapilive.herokuapp.com/placeOrder";
 
@@ -9,7 +8,7 @@ class PlaceOrder extends Component{
 
         this.state={
             hotel_name:this.props.match.params.name,
-            name:'',
+            name:sessionStorage.getItem('username'),
             phone:'',
             cost:sessionStorage.getItem('cost')
         }
@@ -35,7 +34,6 @@ class PlaceOrder extends Component{
     render(){
         return(
             <>
-            <Header/>
             <br/>
             <div className="container">
                 <div className="panel panel-info">

@@ -6,10 +6,12 @@ import Footer from './Footer';
 import Details from './component/details/detailsPage';
 import DisplayApi from './component/booking/displayApi';
 import PlaceBooking from './component/booking/placeBooking';
+import Header from './Header'
 
 const Routing = () => {
     return(
         <BrowserRouter>
+            <Header/>
             <Route exact path="/" component={Home}/>
             <Route path="/listing/:id" component={Listing}/>
             <Route path="/details/:id" component={Details}/>

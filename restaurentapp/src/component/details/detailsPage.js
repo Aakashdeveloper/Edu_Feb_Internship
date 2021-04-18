@@ -1,7 +1,6 @@
 import React,{Component} from 'react';
 import axios from 'axios';
 import {Link} from 'react-router-dom';
-import Header from '../../Header';
 import Slider from "react-slick";
 import './details.css';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
@@ -31,7 +30,6 @@ class Details extends Component{
         let {details} = this.state;
         return(
             <>
-                <Header/>
                 <br/>
                 <div className="container">
                     <div className="panel panel-primary">

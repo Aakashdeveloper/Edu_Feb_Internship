@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import axios from 'axios';
-import Header from '../../Header';
 import ListingDisplay from './listingDisplay';
 import CuisineFilter from '../filters/cusineFilter';
 import CostFilter from '../filters/costFilter';
@@ -24,7 +23,6 @@ class ListingApi extends Component{
     render(){
         return(
             <div className="row">
-                <Header/>
                 <div style={{marginLeft:'5%'}}>
                     <div className="col-md-2">
                        <CuisineFilter restPerCuisine={(data) => {this.setDataPerFilter(data)}}/>
